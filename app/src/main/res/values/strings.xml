@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Helpdesk</string>
+    <string name="userName">Nazwa użytkownika</string>
+    <string name="userNameHint">Login</string>
+    <string name="userPassword">Twoje Hasło</string>
+    <string name="userPasswordHint">Hasło</string>
+    <string name="userLogging">Zaloguj</string>
+</resources>
