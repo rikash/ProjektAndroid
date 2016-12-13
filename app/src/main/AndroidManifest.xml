@@ -18,6 +18,10 @@
         <activity android:name="pl.activities.MainMenu">
 
         </activity>
+
+        <activity android:name="pl.activities.MyProblems">
+
+        </activity>
     </application>
     <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>

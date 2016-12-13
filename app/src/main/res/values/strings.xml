@@ -5,4 +5,7 @@
     <string name="userPassword">Twoje Hasło</string>
     <string name="userPasswordHint">Hasło</string>
     <string name="userLogging">Zaloguj</string>
+    <string name="userLogout">Wyloguj</string>
+    <string name="myProblems">Moje Zgłoszenia</string>
+    <string name="myAccount">Moje dane</string>
 </resources>

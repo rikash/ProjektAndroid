@@ -7,13 +7,68 @@
     android:background="@drawable/background"
     >
 
+
+    <Button
+        android:text="@string/myAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonMyProblems"
+        android:layout_marginTop="26dp"
+        android:id="@+id/buttonMyAccount"
+        android:background="@color/myAccount"
+        android:textColor="@android:color/background_light"
+        android:layout_alignLeft="@+id/buttonMyProblems"
+        android:layout_alignStart="@+id/buttonMyProblems"
+        android:layout_alignRight="@+id/textView7"
+        android:layout_alignEnd="@+id/textView7" />
+
+    <Button
+        android:text="@string/userLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonMyAccount"
+        android:layout_alignLeft="@+id/buttonMyAccount"
+        android:layout_alignStart="@+id/buttonMyAccount"
+        android:layout_marginTop="26dp"
+        android:id="@+id/buttonLogOut"
+        android:background="@color/logOut"
+        android:textColor="@android:color/background_light"
+        android:layout_alignRight="@+id/buttonMyAccount"
+        android:layout_alignEnd="@+id/buttonMyAccount" />
+
+    <Button
+        android:text="@string/myProblems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="109dp"
+        android:id="@+id/buttonMyProblems"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/textView7"
+        android:layout_alignRight="@+id/textView7"
+        android:layout_alignEnd="@+id/textView7"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7" />
+
     <TextView
         android:text="Zalogowano"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="146dp"
+        android:layout_marginTop="123dp"
         android:id="@+id/textView7"
         android:textSize="44sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="15dp"
+        android:id="@+id/showMessage"
+        android:textSize="24sp" />
+
 </RelativeLayout>
