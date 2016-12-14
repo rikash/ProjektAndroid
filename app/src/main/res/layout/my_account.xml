@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/my_account"
+    android:background="@drawable/background"
+    >
+
+
+    <TextView
+        android:text="Imię:"
+        android:id="@+id/loggedUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:text="EmailUsera"
+        android:textSize="35sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LUEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/loggedUserEmail"
+        android:layout_marginTop="13dp"/>
+
+    <TextView
+        android:text="Login:"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loggedUserLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/LUEmail"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:text="ImieUsera"
+        android:textSize="35sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LUName"
+        android:layout_below="@+id/loggedUserName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"/>
+
+    <TextView
+        android:text="Nazwisko:"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loggedUserSurname"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/LUName"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:text="NazwiskoUsera"
+        android:textSize="35sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LUSurname"
+        android:layout_below="@+id/loggedUserSurname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:text="Email:"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loggedUserEmail"
+        android:layout_below="@+id/LUSurname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:text="NazwaUsera"
+        android:textSize="35sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LULogin"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/loggedUserLogin"
+        android:layout_marginTop="13dp" />
+
+</RelativeLayout>
