@@ -46,9 +46,9 @@ public class LoggingActivity extends AppCompatActivity {
                     infoTextView.setText("błedne dane");
                     while(result.next()){
                         Intent myIntent = new Intent(LoggingActivity.this, MainMenu.class);
-                        myIntent.putExtra("userName", loginEditText.getText());
+                        String userLogin = loginEditText.getText().toString();
+                        myIntent.putExtra("userName", userLogin);
                         LoggingActivity.this.startActivity(myIntent);
-
                         infoTextView.setText("Poprawny");
                         break;
                     }

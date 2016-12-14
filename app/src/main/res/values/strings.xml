@@ -8,4 +8,9 @@
     <string name="userLogout">Wyloguj</string>
     <string name="myProblems">Moje Zgłoszenia</string>
     <string name="myAccount">Moje dane</string>
+    <string name="loggedUserName">Moje dane</string>
+    <string name="loggedUserSurname">Moje dane</string>
+    <string name="loggedUserLogin">Moje dane</string>
+    <string name="loggedUserEmail">Moje dane</string>
+
 </resources>

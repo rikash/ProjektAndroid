@@ -22,6 +22,10 @@
         <activity android:name="pl.activities.MyProblems">
 
         </activity>
+
+        <activity android:name="pl.activities.MyAccount">
+
+        </activity>
     </application>
     <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
